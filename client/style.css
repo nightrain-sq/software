@@ -1,0 +1,27 @@
+/*全局样式*/
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(23, 114, 252);
+}
+html{
+    height: 100%;
+}
+body{
+    min-height: 100%;
+    /*设置父元素为伸缩容器*/
+    display: -webkit-flex; /*新版本：Chrome*/
+    display: flex; /*标准规范：Opera 12.1, Firefox 20+*/
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    background: rgb(240, 240, 240);
+    min-width: 960px;
+    font-size: 16px;
+    overflow:auto;
+    height: 100%;
+}
